@@ -35,12 +35,29 @@ main {
     max-width: 1200px;
     text-align: center;
     padding: 2em 0;
+    display: flex;
 }
 
 h2 {
     font-size: 1.8em;
     color: #f0f0f0;
     margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transform: translateY(40px)
+}
+h3 {
+    font-size: 1.8em;
+    color: #f0f0f0;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #555;
+
 }
 
 .team-gallery {
@@ -242,7 +259,7 @@ ul, ol {list-style: none;
 }
 
 main {
-    display: flex;
+    text-align: center;
 }
 
 .video a img {
